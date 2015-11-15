@@ -1,0 +1,1127 @@
+{
+  "pageKey": "EO15ByTFPdC3T3i",
+  "pageName": "AirFreightProjDetails",
+  "isPopup": false,
+  "w": 960,
+  "h": 490,
+  "clientProcesses": [],
+  "dss": [
+    {
+      "key": "APD",
+      "rowMoved": "",
+      "numberOfRows": 0,
+      "rowId": -1,
+      "pageIndex": 0,
+      "numberOfPages": 0,
+      "columns": [
+        {
+          "colName": "ProdNo",
+          "type": "I",
+          "display": "Prod #",
+          "pattern": ""
+        },
+        {
+          "colName": "Customer",
+          "type": "S",
+          "display": "Customer",
+          "pattern": ""
+        },
+        {
+          "colName": "Vendor",
+          "type": "S",
+          "display": "Vendor",
+          "pattern": ""
+        },
+        {
+          "colName": "ShippingPort",
+          "type": "S",
+          "display": "Shipping Port",
+          "pattern": ""
+        },
+        {
+          "colName": "ShipDate",
+          "type": "D",
+          "display": "Ship Date",
+          "pattern": "MM/dd/yy"
+        },
+        {
+          "colName": "ReferenceNo",
+          "type": "S",
+          "display": "CustPO",
+          "pattern": ""
+        },
+        {
+          "colName": "PortofDischarge",
+          "type": "S",
+          "display": "Port of Discharge",
+          "pattern": ""
+        },
+        {
+          "colName": "Style",
+          "type": "S",
+          "display": "Style",
+          "pattern": ""
+        },
+        {
+          "colName": "DueDate",
+          "type": "D",
+          "display": "Due Date",
+          "pattern": "MM/dd/yy"
+        },
+        {
+          "colName": "MerchGroupA",
+          "type": "S",
+          "display": "Group A",
+          "pattern": ""
+        },
+        {
+          "colName": "MerchGroupB",
+          "type": "S",
+          "display": "Group B",
+          "pattern": ""
+        },
+        {
+          "colName": "MerchGroupC",
+          "type": "S",
+          "display": "Group C",
+          "pattern": ""
+        },
+        {
+          "colName": "MerchGroupD",
+          "type": "S",
+          "display": "Group D",
+          "pattern": ""
+        },
+        {
+          "colName": "MerchGroupE",
+          "type": "S",
+          "display": "Group E",
+          "pattern": ""
+        },
+        {
+          "colName": "StyleDesc",
+          "type": "S",
+          "display": "Style Desc",
+          "pattern": ""
+        },
+        {
+          "colName": "Selected",
+          "type": "S",
+          "display": "Sel",
+          "pattern": ""
+        },
+        {
+          "colName": "ItemPackType",
+          "type": "S",
+          "display": "PackType",
+          "pattern": ""
+        },
+        {
+          "colName": "CBMCTN",
+          "type": "N",
+          "display": "CBM / Carton",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "KGSCTNGROSSSTD",
+          "type": "N",
+          "display": "Kgs / Carton - Gross",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "KGSUNITCHARGESTD",
+          "type": "N",
+          "display": "Kgs / Unit - Charge",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "KGSUNITGROSSSTD",
+          "type": "N",
+          "display": "Kgs / Unit - Gross",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "KGSCtnChargeSTDExt",
+          "type": "S",
+          "display": "KGSCtnChargeSTDExt",
+          "pattern": ""
+        },
+        {
+          "colName": "KGSCtnGrossStdExt",
+          "type": "S",
+          "display": "KGSCtnGrossStdExt",
+          "pattern": ""
+        },
+        {
+          "colName": "KGSUnitChargeStdExt",
+          "type": "S",
+          "display": "KGSUnitChargeStdExt",
+          "pattern": ""
+        },
+        {
+          "colName": "KGSUnitGrossStdExt",
+          "type": "S",
+          "display": "KGSUnitGrossStdExt",
+          "pattern": ""
+        },
+        {
+          "colName": "CartonQty",
+          "type": "I",
+          "display": "Carton Qty",
+          "pattern": "#,###"
+        },
+        {
+          "colName": "TotalCartons",
+          "type": "I",
+          "display": "Total Cartons",
+          "pattern": ""
+        },
+        {
+          "colName": "TotalQty",
+          "type": "N",
+          "display": "Total Qty",
+          "pattern": "#,###"
+        }
+      ],
+      "rows": []
+    },
+    {
+      "key": "FIlter",
+      "rowMoved": "",
+      "numberOfRows": 1,
+      "rowId": 585,
+      "pageIndex": 0,
+      "numberOfPages": 0,
+      "columns": [
+        {
+          "colName": "VENDOR",
+          "type": "S",
+          "display": "Vendor",
+          "pattern": ""
+        },
+        {
+          "colName": "REFERENCENO",
+          "type": "S",
+          "display": "CustPO",
+          "pattern": ""
+        },
+        {
+          "colName": "STYLE",
+          "type": "S",
+          "display": "Style",
+          "pattern": ""
+        },
+        {
+          "colName": "STYLEDESC",
+          "type": "S",
+          "display": "Style Desc",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPA",
+          "type": "S",
+          "display": "Group A",
+          "pattern": ""
+        },
+        {
+          "colName": "SHIPPINGPORT",
+          "type": "S",
+          "display": "Shipping Port",
+          "pattern": ""
+        },
+        {
+          "colName": "STARTSHIPDATE",
+          "type": "D",
+          "display": "Start Ship Date",
+          "pattern": "MM/dd/yyyy"
+        },
+        {
+          "colName": "ENDSHIPDATE",
+          "type": "D",
+          "display": "End Ship Date",
+          "pattern": "MM/dd/yyyy"
+        },
+        {
+          "colName": "STARTDUEDATE",
+          "type": "D",
+          "display": "Start Due Date",
+          "pattern": "MM/dd/yyyy"
+        },
+        {
+          "colName": "ENDDUEDATE",
+          "type": "D",
+          "display": "End Due Date",
+          "pattern": "MM/dd/yyyy"
+        },
+        {
+          "colName": "MERCHGROUPB",
+          "type": "S",
+          "display": "Group B",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPC",
+          "type": "S",
+          "display": "Group C",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPD",
+          "type": "S",
+          "display": "Group D",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPE",
+          "type": "S",
+          "display": "Group E",
+          "pattern": ""
+        },
+        {
+          "colName": "CREATEDTIME",
+          "type": "D",
+          "display": "CreatedTime",
+          "pattern": "MM/dd/yy hh:mm a"
+        },
+        {
+          "colName": "CREATEDUSER",
+          "type": "S",
+          "display": "CreatedUser",
+          "pattern": ""
+        },
+        {
+          "colName": "MODTIME",
+          "type": "D",
+          "display": "Mod Time",
+          "pattern": "MM/dd/yy hh:mm a"
+        },
+        {
+          "colName": "MODUSER",
+          "type": "S",
+          "display": "ModUser",
+          "pattern": ""
+        },
+        {
+          "colName": "Customer",
+          "type": "S",
+          "display": "Customer",
+          "pattern": ""
+        },
+        {
+          "colName": "PortofDischarge",
+          "type": "S",
+          "display": "Port of Discharge",
+          "pattern": ""
+        }
+      ],
+      "rows": [
+        {
+          "VENDOR": "",
+          "REFERENCENO": "",
+          "STYLE": "",
+          "STYLEDESC": "",
+          "MERCHGROUPA": "",
+          "SHIPPINGPORT": "",
+          "STARTSHIPDATE": "1900-01-01 00:00:00.000",
+          "ENDSHIPDATE": "1900-01-01 00:00:00.000",
+          "STARTDUEDATE": "1900-01-01 00:00:00.000",
+          "ENDDUEDATE": "1900-01-01 00:00:00.000",
+          "MERCHGROUPB": "",
+          "MERCHGROUPC": "",
+          "MERCHGROUPD": "",
+          "MERCHGROUPE": "",
+          "CREATEDTIME": "",
+          "CREATEDUSER": "",
+          "MODTIME": "",
+          "MODUSER": "",
+          "Customer": "",
+          "PortofDischarge": ""
+        }
+      ]
+    },
+    {
+      "key": "AFD",
+      "rowMoved": "",
+      "numberOfRows": 0,
+      "rowId": -1,
+      "pageIndex": 0,
+      "numberOfPages": 0,
+      "columns": [
+        {
+          "colName": "PKEY",
+          "type": "I",
+          "display": "PKey",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPA",
+          "type": "S",
+          "display": "Group A",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPB",
+          "type": "S",
+          "display": "Group B",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPC",
+          "type": "S",
+          "display": "Group C",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPD",
+          "type": "S",
+          "display": "Group D",
+          "pattern": ""
+        },
+        {
+          "colName": "MERCHGROUPE",
+          "type": "S",
+          "display": "Group E",
+          "pattern": ""
+        },
+        {
+          "colName": "KGSCTNGROSSSTD",
+          "type": "N",
+          "display": "Kgs / Carton - Gross",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "KGSUNITCHARGESTD",
+          "type": "N",
+          "display": "Kgs / Unit - Charge",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "KGSUNITGROSSSTD",
+          "type": "N",
+          "display": "Kgs / Unit - Gross",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "FKEY",
+          "type": "I",
+          "display": "Fkey",
+          "pattern": ""
+        },
+        {
+          "colName": "VENDOR",
+          "type": "S",
+          "display": "Vendor",
+          "pattern": ""
+        },
+        {
+          "colName": "SHIPDATE",
+          "type": "D",
+          "display": "Ship Date",
+          "pattern": "MM/dd/yy"
+        },
+        {
+          "colName": "DUEDATE",
+          "type": "D",
+          "display": "Due Date",
+          "pattern": "MM/dd/yy"
+        },
+        {
+          "colName": "ITEMPACKTYPE",
+          "type": "S",
+          "display": "PackType",
+          "pattern": ""
+        },
+        {
+          "colName": "PRODNO",
+          "type": "I",
+          "display": "Prod #",
+          "pattern": ""
+        },
+        {
+          "colName": "REFERENCENO",
+          "type": "S",
+          "display": "CustPO",
+          "pattern": ""
+        },
+        {
+          "colName": "STYLE",
+          "type": "S",
+          "display": "Style",
+          "pattern": ""
+        },
+        {
+          "colName": "TOTALQTY",
+          "type": "N",
+          "display": "Total Qty",
+          "pattern": "#,###"
+        },
+        {
+          "colName": "CARTONQTY",
+          "type": "I",
+          "display": "Carton Qty",
+          "pattern": "#,###"
+        },
+        {
+          "colName": "TOTALCARTONS",
+          "type": "I",
+          "display": "Total Cartons",
+          "pattern": ""
+        },
+        {
+          "colName": "SHIPPINGPORT",
+          "type": "S",
+          "display": "Shipping Port",
+          "pattern": ""
+        },
+        {
+          "colName": "CBMCTN",
+          "type": "N",
+          "display": "CBM / Carton",
+          "pattern": "#,###.0000"
+        },
+        {
+          "colName": "STYLEDESC",
+          "type": "S",
+          "display": "Style Desc",
+          "pattern": ""
+        },
+        {
+          "colName": "CREATEDTIME",
+          "type": "D",
+          "display": "CreatedTime",
+          "pattern": "MM/dd/yy hh:mm a"
+        },
+        {
+          "colName": "CREATEDUSER",
+          "type": "S",
+          "display": "CreatedUser",
+          "pattern": ""
+        },
+        {
+          "colName": "MODTIME",
+          "type": "D",
+          "display": "Mod Time",
+          "pattern": "MM/dd/yy hh:mm a"
+        },
+        {
+          "colName": "MODUSER",
+          "type": "S",
+          "display": "ModUser",
+          "pattern": ""
+        },
+        {
+          "colName": "Customer",
+          "type": "S",
+          "display": "Customer",
+          "pattern": ""
+        },
+        {
+          "colName": "PortofDischarge",
+          "type": "S",
+          "display": "Port of Discharge",
+          "pattern": ""
+        }
+      ],
+      "rows": []
+    }
+  ],
+  "nodes": {
+    "t": "page",
+    "text": "",
+    "nodes": [
+      {
+        "id": "Pane_l26bf8",
+        "text": "",
+        "visible": true,
+        "disable": false,
+        "x": 0,
+        "y": 0,
+        "h": 441,
+        "w": 920,
+        "t": "pane",
+        "nodes": [
+          {
+            "id": "Pane_03ENzI",
+            "text": "",
+            "visible": true,
+            "disable": false,
+            "x": 0,
+            "y": 0,
+            "h": 216,
+            "w": 918,
+            "t": "pane",
+            "nodes": [
+              {
+                "id": "label_NC6kCZ",
+                "text": "Customer",
+                "visible": true,
+                "disable": false,
+                "x": 50,
+                "y": 29,
+                "h": 20,
+                "w": 80,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_xDtHhj",
+                "text": "Vendor",
+                "visible": true,
+                "disable": false,
+                "x": 70,
+                "y": 49,
+                "h": 20,
+                "w": 60,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_5AdM8D",
+                "text": "ReferenceNo",
+                "visible": true,
+                "disable": false,
+                "x": 20,
+                "y": 69,
+                "h": 20,
+                "w": 110,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_9u1wWM",
+                "text": "Style",
+                "visible": true,
+                "disable": false,
+                "x": 80,
+                "y": 89,
+                "h": 20,
+                "w": 50,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_5JbKWF",
+                "text": "Style Desc",
+                "visible": true,
+                "disable": false,
+                "x": 30,
+                "y": 109,
+                "h": 20,
+                "w": 100,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_3MyCsg",
+                "text": "Group A",
+                "visible": true,
+                "disable": false,
+                "x": 60,
+                "y": 129,
+                "h": 20,
+                "w": 70,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_kde7dX",
+                "text": "Shipping Port",
+                "visible": true,
+                "disable": false,
+                "x": 474,
+                "y": 29,
+                "h": 20,
+                "w": 130,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_R29ask",
+                "text": "Port Of Discharge",
+                "visible": true,
+                "disable": false,
+                "x": 474,
+                "y": 49,
+                "h": 20,
+                "w": 130,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_XtCEcH",
+                "text": "Start Ship Date",
+                "visible": true,
+                "disable": false,
+                "x": 454,
+                "y": 69,
+                "h": 20,
+                "w": 150,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_tS844v",
+                "text": "End Ship Date",
+                "visible": true,
+                "disable": false,
+                "x": 474,
+                "y": 89,
+                "h": 20,
+                "w": 130,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_d01yyx",
+                "text": "Start Due Date",
+                "visible": true,
+                "disable": false,
+                "x": 464,
+                "y": 109,
+                "h": 20,
+                "w": 140,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "label_AtoJTX",
+                "text": "End Due Date",
+                "visible": true,
+                "disable": false,
+                "x": 484,
+                "y": 129,
+                "h": 20,
+                "w": 120,
+                "t": "label",
+                "alignment": "CENTER_RIGHT"
+              },
+              {
+                "id": "textField_77JYZJ",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 134,
+                "y": 29,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.Customer",
+                "maxLength": 10,
+                "isMandatory": true,
+                "callMethod": "FIlter.Customer",
+                "colType": "S",
+                "lookup": "[Customer],[[[APD.Customer]003d[Customer]]],[]"
+              },
+              {
+                "id": "textField_MmPu2d",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 134,
+                "y": 49,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.Vendor",
+                "maxLength": 15,
+                "isMandatory": false,
+                "callMethod": "FIlter.Vendor",
+                "colType": "S",
+                "lookup": "[CoMetricsVndZoom],[[[APD.Vendor]003d[Vendor]]],[[[@pc]003d[APD.]],[[@pcCustomer]003d[APD.Customer]]]"
+              },
+              {
+                "id": "textField_EYttGw",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 134,
+                "y": 69,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.ReferenceNo",
+                "maxLength": 20,
+                "isMandatory": false,
+                "callMethod": "FIlter.CustPO",
+                "colType": "S"
+              },
+              {
+                "id": "textField_6i6N6A",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 134,
+                "y": 89,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.Style",
+                "maxLength": 30,
+                "isMandatory": false,
+                "callMethod": "FIlter.Style",
+                "colType": "S"
+              },
+              {
+                "id": "textField_jC5knL",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 134,
+                "y": 109,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.StyleDesc",
+                "isTextArea": true,
+                "maxLength": 100,
+                "isMandatory": false,
+                "callMethod": "FIlter.Style Desc",
+                "colType": "S"
+              },
+              {
+                "id": "textField_JjY0Ry",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 134,
+                "y": 129,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.MerchGroupA",
+                "maxLength": 10,
+                "isMandatory": false,
+                "callMethod": "FIlter.Group A",
+                "colType": "S",
+                "lookup": "[MerchGroupTypeA],[[[APD.MerchGroupA]003d[MerchGroupCode]]],[[[]003d[APD.]],[[Customer]003d[APD.Customer]]]"
+              },
+              {
+                "id": "textField_Zr8H43",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 29,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.ShippingPort",
+                "maxLength": 5,
+                "isMandatory": false,
+                "callMethod": "FIlter.Shipping Port",
+                "colType": "S",
+                "lookup": "[Port],[[[APD.ShippingPort]003d[Port]]],[[[]003d[APD.]]]"
+              },
+              {
+                "id": "textField_cPoFDC",
+                "text": "",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 49,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.PortOfDischarge",
+                "maxLength": 5,
+                "isMandatory": false,
+                "callMethod": "FIlter.Port of Discharge",
+                "colType": "S",
+                "lookup": "[Port],[[[APD.]003d[Port]]],[[[]003d[APD.]]]"
+              },
+              {
+                "id": "textField_tCW0VV",
+                "text": "01/01/1900",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 69,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.StartShipDate",
+                "maxLength": 30,
+                "isMandatory": false,
+                "callMethod": "FIlter.Start Ship Date",
+                "colType": "D",
+                "lookup": "Calendar"
+              },
+              {
+                "id": "textField_GpowxC",
+                "text": "01/01/1900",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 89,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.EndShipDate",
+                "maxLength": 30,
+                "isMandatory": false,
+                "callMethod": "FIlter.End Ship Date",
+                "colType": "D",
+                "lookup": "Calendar"
+              },
+              {
+                "id": "textField_dT6Bcc",
+                "text": "01/01/1900",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 109,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.StartDueDate",
+                "maxLength": 30,
+                "isMandatory": false,
+                "callMethod": "FIlter.Start Due Date",
+                "colType": "D",
+                "lookup": "Calendar"
+              },
+              {
+                "id": "textField_jeZh6E",
+                "text": "01/01/1900",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 129,
+                "h": 22,
+                "w": 168,
+                "t": "TextField",
+                "binding": "FIlter.EndDueDate",
+                "maxLength": 30,
+                "isMandatory": false,
+                "callMethod": "FIlter.End Due Date",
+                "colType": "D",
+                "lookup": "Calendar"
+              },
+              {
+                "id": "button_AodKKq",
+                "text": "Search Data",
+                "visible": true,
+                "disable": false,
+                "x": 607,
+                "y": 171,
+                "h": 26,
+                "w": 113,
+                "t": "button"
+              }
+            ]
+          },
+          {
+            "id": "tableView_IVr4xe",
+            "text": "",
+            "visible": true,
+            "disable": false,
+            "x": 0,
+            "y": 216,
+            "h": 223,
+            "w": 918,
+            "t": "tableView",
+            "columns": [
+              {
+                "col": "Selected",
+                "title": "Sel",
+                "type": "",
+                "dataType": "text",
+                "width": 24
+              },
+              {
+                "col": "Customer",
+                "title": "Customer",
+                "type": "",
+                "dataType": "text",
+                "width": 80
+              },
+              {
+                "col": "Vendor",
+                "title": "Vendor",
+                "type": "",
+                "dataType": "text",
+                "width": 120
+              },
+              {
+                "col": "ReferenceNo",
+                "title": "CustPO",
+                "type": "",
+                "dataType": "text",
+                "width": 160
+              },
+              {
+                "col": "Style",
+                "title": "Style",
+                "type": "",
+                "dataType": "text",
+                "width": 240
+              },
+              {
+                "col": "StyleDesc",
+                "title": "Style Desc",
+                "type": "",
+                "dataType": "text",
+                "width": 240
+              },
+              {
+                "col": "TotalQty",
+                "title": "Total Qty",
+                "type": "",
+                "dataType": "Number",
+                "width": 144
+              },
+              {
+                "col": "CartonQty",
+                "title": "Carton Qty",
+                "type": "",
+                "dataType": "Int",
+                "width": 80
+              },
+              {
+                "col": "TotalCartons",
+                "title": "Total Cartons",
+                "type": "",
+                "dataType": "Int",
+                "width": 104
+              },
+              {
+                "col": "ItemPackType",
+                "title": "PackType",
+                "type": "",
+                "dataType": "text",
+                "width": 120
+              },
+              {
+                "col": "KGSUNITGROSSSTD",
+                "title": "Kgs / Unit - Gross",
+                "type": "",
+                "dataType": "Number",
+                "width": 144
+              },
+              {
+                "col": "KGSUNITCHARGESTD",
+                "title": "Kgs / Unit - Charge",
+                "type": "",
+                "dataType": "Number",
+                "width": 152
+              },
+              {
+                "col": "KGSUnitGrossStdExt",
+                "title": "KGSUnitGrossStdExt",
+                "type": "",
+                "dataType": "text",
+                "width": 50
+              },
+              {
+                "col": "KGSUnitChargeStdExt",
+                "title": "KGSUnitChargeStdExt",
+                "type": "",
+                "dataType": "text",
+                "width": 50
+              },
+              {
+                "col": "CBMCTN",
+                "title": "CBM / Carton",
+                "type": "",
+                "dataType": "Number",
+                "width": 144
+              },
+              {
+                "col": "KGSCTNGROSSSTD",
+                "title": "Kgs / Carton - Gross",
+                "type": "",
+                "dataType": "Number",
+                "width": 160
+              },
+              {
+                "col": "KGSCtnChargeSTDExt",
+                "title": "KGSCtnChargeSTDExt",
+                "type": "",
+                "dataType": "text",
+                "width": 50
+              },
+              {
+                "col": "KGSCtnGrossStdExt",
+                "title": "KGSCtnGrossStdExt",
+                "type": "",
+                "dataType": "text",
+                "width": 50
+              },
+              {
+                "col": "ShipDate",
+                "title": "Ship Date",
+                "type": "",
+                "dataType": "Date",
+                "width": 240
+              },
+              {
+                "col": "DueDate",
+                "title": "Due Date",
+                "type": "",
+                "dataType": "Date",
+                "width": 240
+              },
+              {
+                "col": "MerchGroupA",
+                "title": "Group A",
+                "type": "",
+                "dataType": "text",
+                "width": 80
+              },
+              {
+                "col": "PortOfDischarge",
+                "title": "Port of Discharge",
+                "type": "",
+                "dataType": "text",
+                "width": 136
+              },
+              {
+                "col": "ShippingPort",
+                "title": "Shipping Port",
+                "type": "",
+                "dataType": "text",
+                "width": 104
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Pane_k3MotH",
+        "text": "",
+        "visible": true,
+        "disable": false,
+        "x": 0,
+        "y": 441,
+        "h": 48,
+        "w": 920,
+        "t": "pane",
+        "nodes": [
+          {
+            "id": "button_B2fYTE",
+            "text": "OK",
+            "visible": true,
+            "disable": false,
+            "x": 745,
+            "y": 14,
+            "h": 26,
+            "w": 75,
+            "t": "button"
+          },
+          {
+            "id": "button_KeYEvP",
+            "text": "Cancel",
+            "visible": true,
+            "disable": false,
+            "x": 830,
+            "y": 14,
+            "h": 26,
+            "w": 75,
+            "t": "button"
+          }
+        ]
+      }
+    ]
+  },
+  "popovers": []
+}

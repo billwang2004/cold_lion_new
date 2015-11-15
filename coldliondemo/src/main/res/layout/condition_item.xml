@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="2dp"
+              >
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Name"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:padding="8dp"
+                    android:layout_weight="1"
+                    android:id="@+id/conditions_name"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Criteria"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/bd_wallet_input"
+                    android:id="@+id/conditions_criteria"/>
+</LinearLayout>

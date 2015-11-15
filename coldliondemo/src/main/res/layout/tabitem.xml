@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item1"
+            android:button="@null"
+            android:padding="4dp"
+            android:background="@drawable/tabitem"
+            android:id="@+id/radioButton1"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Item2"
+            android:background="@drawable/tabitem"
+            android:button="@null"
+            android:id="@+id/radioButton2"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Item3"
+            android:background="@drawable/tabitem"
+            android:button="@null"
+            android:visibility="gone"
+            android:id="@+id/radioButton3"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Item5"
+            android:background="@drawable/tabitem"
+            android:button="@null"
+            android:visibility="gone"
+            android:id="@+id/radioButton4"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Item5"
+            android:background="@drawable/tabitem"
+            android:button="@null"
+            android:visibility="gone"
+            android:id="@+id/radioButton5"/>v
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Item6"
+            android:background="@drawable/tabitem"
+            android:button="@null"
+            android:visibility="gone"
+            android:id="@+id/radioButton6"
+            />
+
+</RadioGroup>

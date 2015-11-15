@@ -1,0 +1,267 @@
+{
+  "pageKey": "p42dE0RoiTNETNO",       -> Page Instance Id, String
+  "pageName": "DivisionTestLeon",     -> Page Name
+  "isPopup": "false",				  -> 是否是弹出框，boolean
+  "w": "725.0",						  -> width，宽度，double
+  "h": "598.0000305175781",			  -> height ，高度，double
+  "clientProcesses": [],			  ->以前的form operation,里面是个jsonarray, jsonArray里面是process, params
+  "dss": [ 								-> 数据源跟节点 
+    {
+      "key": "Division",	-》数据源名字 
+      "rowMoved": "",		-》 记录移动执行事件名称
+      "numberOfRows": "0", ->记录数
+      "rowId": "-1",		-》当前选中的rowId
+      "pageIndex": "0",		->
+      "numberOfPages": "0",
+      "columns": [			-》列的根节点 
+        {
+          "colName": "CompanyCode", 列名称
+          "type": "S",	            列类型，S: String , I: integer, N: numeric, D: datetime
+          "display": "Company Code", 列显示名称 
+          "pattern": ""				数据格式 
+        },
+        {
+          "colName": "DivisionCode",
+          "type": "S",
+          "display": "Division Code",
+          "pattern": ""
+        },
+        {
+          "colName": "DivisionDesc",
+          "type": "S",
+          "display": "Division Desc",
+          "pattern": ""
+        },
+        {
+          "colName": "AccDivCode",
+          "type": "S",
+          "display": "Accounting Division",
+          "pattern": ""
+        },
+        {
+          "colName": "Active",
+          "type": "S",
+          "display": "Active",
+          "pattern": ""
+        },
+        {
+          "colName": "Address1",
+          "type": "S",
+          "display": "Address 1",
+          "pattern": ""
+        }
+      ],
+      "rows": []  行根节点  
+    }
+  ],
+  "nodes": {        页面控件根节点    
+    "t": "page",    控件类型 (当前有page, textField, ComboBox, CheckBox, toolBarButton, toolBar,mainTab等。以前支持的我们基本都支持，只不过类型名称可能不一样了）
+    "text": "",	   控件显示 
+    "nodes": [	  子控件
+      {
+        "id": "button_PDuUEH", 控件名称 
+        "text": "button1",		控件显示 
+        "visible": "true",	是否可见  boolean
+        "disable": "false", 是否可用 boolean
+        "x": "16.0",		位置X, double
+        "y": "20.000015258789062",  位置 y double
+        "h": "37.0", 高度 double
+        "w": "62.0", 宽度，double
+        "t": "button" 类型 
+      },
+      {
+        "id": "checkBox_VOhAIN",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "112.0",
+        "y": "46.0",
+        "h": "31.0",
+        "w": "93.0",
+        "t": "CheckBox",
+        "binding": "",
+        "selected": "false"   是否check,boolean
+      },
+      {
+        "id": "textField_vQmWFI",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "256.0",
+        "y": "45.0",
+        "h": "33.0",
+        "w": "147.0",
+        "t": "TextField",
+        "binding": "@AccDivDesc",  绑定字段或变量 String
+        "maxLength": "40", 	            ->最大输入长度 integer
+        "isMandatory": "false",		-》是否不为空，就是说必须输入 boolean
+        "colType": "S"	和列类型一样, S: String , I: integer, N: numeric, D: datetime
+      },
+      {
+        "id": "ComboBox_jrFyY8",
+        "text": "",
+        "visible": "true",
+        "disable": "true",
+        "x": "481.0",
+        "y": "45.0",
+        "h": "33.0",
+        "w": "229.0",
+        "t": "ComboBox",
+        "selected": "",   当前选中的itemIndex, integer
+        "items": []        列表内容
+      },
+      {
+        "id": "label_POfIxf",
+        "text": "label2",
+        "visible": "true",
+        "disable": "false",
+        "x": "133.0",
+        "y": "18.0",
+        "h": "31.0",
+        "w": "114.0",
+        "t": "label",
+        "alignment": "CENTER_RIGHT"  对齐，可只看_符号后面部分right, left, center
+      },
+      {
+        "id": "toolBar_ADI68S",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "42.999969482421875",
+        "y": "97.00001525878906",
+        "h": "26.0",
+        "w": "680.0",
+        "t": "toolbar",
+        "alignment": "CENTER_LEFT",
+        "clicked": "",
+        "nodes": [
+          {
+            "id": "toolBarButton_mpfu0B",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "separator",  toolbar类型，separator是分割控件
+            "graphic": "",			 -> 用FontAwesome里面的图片名字
+            "tooltip": "",	
+            "clicked": ""  点击事件
+          },
+          {
+            "id": "toolBarButton_mpfu0B",
+            "t": "toolbarButton"
+          },
+          
+          {
+            "id": "toolBarButton_pazHgp",
+            "t": "toolbarButton"
+          },
+          {
+            "id": "toolBarButton_lTS8Vw",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "separator",
+            "graphic": "",
+            "tooltip": "",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_lTS8Vw",
+            "t": "toolbarButton"
+          },        
+          {
+            "id": "toolBarButton_hSilPQ",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "button",
+            "graphic": "ANGLE_RIGHT",
+            "tooltip": "Next",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_hSilPQ",
+            "t": "toolbarButton"
+          },
+          {
+            "id": "toolBarButton_NooZmI",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "button",
+            "graphic": "ANGLE_DOUBLE_RIGHT",
+            "tooltip": "Last",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_t8scJO",
+            "t": "toolbarButton"
+          }
+        ]
+      },
+      {
+        "id": "pageHeader_D9Gwgk",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "42.0",
+        "y": "140.00003051757812",
+        "h": "457.0",
+        "w": "682.0",
+        "t": "mainTab",           这个类型是mainForm，你可以看以前怎么做的
+        "selected": "-1",
+        "nodes": [
+          {
+            "id": "tab_j44yzx",
+            "text": "Tab1",
+            "visible": "true",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "5.0",
+            "w": "5.0",
+            "t": "tab",
+            "nodes": [
+              {
+                "id": "textField_slpYWS",
+                "text": "",
+                "visible": "true",
+                "disable": "true",
+                "x": "88.00003051757812",
+                "y": "61.999969482421875",
+                "h": "34.0",
+                "w": "99.0",
+                "t": "TextField",
+                "binding": "Division.Active",
+                "maxLength": "1",
+                "isMandatory": "false",
+                "callMethod": "Division.Active", 	数据改变时触发的事件，如果有值你只要提交 
+                "colType": "S"                             和列类型一样
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "popovers": []
+}

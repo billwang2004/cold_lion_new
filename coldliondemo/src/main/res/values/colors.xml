@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 公共的 -->
+    <color name="tab_main_text_1">#aaa</color>
+    <color name="tab_main_text_2">#74b5f7</color>
+    <color name="tab_top_text_1">#aaa</color>
+    <color name="tab_top_text_2">#000</color>
+    <color name="slidermenu_bg">#fff</color>
+    <color name="slidermenu_title_bg">#6699CC</color>
+    <color name="slidermenu_title_color">#fff</color>
+    <color name="login_text_color">#fff</color>
+    <color name="dataGrid_header_bgColor">#80323232</color>
+    <color name="dataGrid_content_bgColor1">#bebebe</color>
+    <color name="dataGrid_content_bgColor2">#80bebebe</color>
+    <color name="lighter_gray">#ddd</color>
+    <color name="darker_gray">#aaa</color>
+
+    <color name="root_background_color">#ffbdcad0</color>
+    <color name="panel_background_color">#fff4f4f4</color>
+    <color name="list_head_background_color">#ffff</color>
+    <color name="title_bar_text_color">#ff6b8c9b</color>
+    <color name="list_text_color">#ff545454</color>
+    <color name="list_header_text_color">#ff7e98a5</color>
+    <color name="list_divide_color">#ffbdcad0</color>
+    <color name="tab_item_focus_text_color">#fff</color>
+    <color name="tab_item_text_color">#ff3a4e57</color>
+    <color name="dialog_title_bg_color">#ffe8eef1</color>
+    <color name="dialog_content_text1">#ff7c81a8</color>
+    <color name="dialog_content_text2">#000</color>
+    <color name="content_text_color1">#ff737373</color>
+    <color name="content_text_color2">#ff8e8e8e</color>
+    <color name="content_text_color3">#ff787878</color>
+    <color name="title_bar_bg_color">#ff55c1ff</color>
+
+    <color name="gray_white">#ebebeb</color>
+    <color name="list_divider">#D3D3D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_bg">#88838B8B</color>
+
+
+
+
+
+
+</resources>

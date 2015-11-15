@@ -1,0 +1,1091 @@
+{
+  "menus": [
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Application",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Forwarding",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Booking Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentBookingMaintenance",
+      "menuType": "Page",
+      "menuName": "All Bookings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "RevisedBookingMaintenance",
+      "menuType": "Page",
+      "menuName": "Amended Bookings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ConsolidatedShipmentBookingMaintenance",
+      "menuType": "Page",
+      "menuName": "Consol Bookings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ReadyToShipBooking",
+      "menuType": "Page",
+      "menuName": "Confirmed to Ship",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ImportSBHData",
+      "menuType": "Process",
+      "menuName": "Import Shipment Booking",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Shipment Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsShipmentMaint",
+      "menuType": "Page",
+      "menuName": "Export Shipments",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsContainerMaintenance",
+      "menuType": "Page",
+      "menuName": "Container Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "BrokerInvoiceMaintenance",
+      "menuType": "Page",
+      "menuName": "Broker Invoice Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "FreightInvoiceMaintenance",
+      "menuType": "Page",
+      "menuName": "Freight Invoice Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentInvMaint",
+      "menuType": "Page",
+      "menuName": "Vendor Invoice",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ISFRequest",
+      "menuType": "Page",
+      "menuName": "ISF Request",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentIssueMaintenance",
+      "menuType": "Page",
+      "menuName": "Shipment Issue Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "AirFreightProjMaint",
+      "menuType": "Page",
+      "menuName": "Air Freight Proj Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "EDI",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EdiInboundProcess",
+      "menuType": "Process",
+      "menuName": "Inbound Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EdiOutboundProcess",
+      "menuType": "Process",
+      "menuName": "Outbound Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Inbound",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "850 (Production Order)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "11580",
+      "menuType": "Process",
+      "menuName": "850 Inbound Prod Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI850InboundProdMaintenance",
+      "menuType": "Page",
+      "menuName": "850 Inbound Prod Transactions",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "1000002704",
+      "menuType": "Report",
+      "menuName": "850 Inbound Prod Error Report",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "1000002706",
+      "menuType": "Report",
+      "menuName": "850 Inboubd Prod Register",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "315 (Shipment Events)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "17316",
+      "menuType": "Process",
+      "menuName": "EDI 315 Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI315ShipmentMaintenance",
+      "menuType": "Page",
+      "menuName": "EDI 315 Transactions",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Outbound",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "856 Prod Shipment",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "10943",
+      "menuType": "Process",
+      "menuName": "856 Prod Shipment Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI856ProdShipmentMaintenance",
+      "menuType": "Page",
+      "menuName": "856 Prod Shipment Trans Maint",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "856 Shipment Booking",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "18705",
+      "menuType": "Process",
+      "menuName": "856 Shipment Booking Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "810 (Broker Invoice)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "14239",
+      "menuType": "Process",
+      "menuName": "810 Broker Invoice Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "310 (Freight Invoice)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "17282",
+      "menuType": "Process",
+      "menuName": "310 Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI310TransactionMaintenance",
+      "menuType": "Page",
+      "menuName": "310 Transaction Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "997D (Detailed Acknowledgement)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "18706",
+      "menuType": "Process",
+      "menuName": "997D Detailed Acknowledgement Process",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "China Forwarding",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Booking Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentBookingMaintenance",
+      "menuType": "Page",
+      "menuName": "All Bookings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "RevisedBookingMaintenance",
+      "menuType": "Page",
+      "menuName": "Amended Bookings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ConsolidatedShipmentBookingMaintenance",
+      "menuType": "Page",
+      "menuName": "Consol Bookings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ReadyToShipBooking",
+      "menuType": "Page",
+      "menuName": "Confirmed to Ship",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ImportSBHData",
+      "menuType": "Process",
+      "menuName": "Import Shipment Booking",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Shipment Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ChinaShipmentMaint",
+      "menuType": "Page",
+      "menuName": "Export Shipments",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ChinaAirFreightMaint",
+      "menuType": "Page",
+      "menuName": "Export Air Shipments",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "BrokerInvoiceMaintenance",
+      "menuType": "Page",
+      "menuName": "Broker Invoice Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "FreightInvoiceMaintenance",
+      "menuType": "Page",
+      "menuName": "Freight Invoice Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentInvMaint",
+      "menuType": "Page",
+      "menuName": "Vendor Invoice",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ISFRequest",
+      "menuType": "Page",
+      "menuName": "ISF Request",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentIssueMaintenance",
+      "menuType": "Page",
+      "menuName": "Shipment Issue Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "AirFreightProjMaint",
+      "menuType": "Page",
+      "menuName": "Air Freight Proj Maintenance",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentSchedule",
+      "menuType": "Page",
+      "menuName": "Shipment Schedule",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ImportShipmentSchedule",
+      "menuType": "Process",
+      "menuName": "Shipment Schedule Import",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Accounting Center",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "A/R",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "AllBills",
+      "menuType": "Page",
+      "menuName": "All Debit Notes",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "InvoicePendingNotes",
+      "menuType": "Page",
+      "menuName": "Debit Notes (Inv. Pending)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "BillingInvoiceMaint",
+      "menuType": "Page",
+      "menuName": "Invoice (Not Posted)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CustPendingNotes",
+      "menuType": "Page",
+      "menuName": "Debit Note to Cust (Not Posted)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "PendingNotestoGL",
+      "menuType": "Page",
+      "menuName": "Pending Post to Kingdee",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ApplyPayment",
+      "menuType": "Page",
+      "menuName": "Apply Payments",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ExportBillingInvoiceToGovernment",
+      "menuType": "Process",
+      "menuName": "Export Billing Invoice To Government",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ExportBillingInvoiceToGL",
+      "menuType": "Process",
+      "menuName": "Export Billing Invoice To GL",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ExportBillingInvoiceToCust",
+      "menuType": "Process",
+      "menuName": "Export Billing Invoice To Cust",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Reference",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Administrative",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Customer_New",
+      "menuType": "Page",
+      "menuName": "Customer",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Currency",
+      "menuType": "Page",
+      "menuName": "Currency",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Port",
+      "menuType": "Page",
+      "menuName": "Port",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "State",
+      "menuType": "Page",
+      "menuName": "State",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Country",
+      "menuType": "Page",
+      "menuName": "Country",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "MessageCategory",
+      "menuType": "Page",
+      "menuName": "Message Category",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "BrokerReference",
+      "menuType": "Page",
+      "menuName": "Broker",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CustServiceRep",
+      "menuType": "Page",
+      "menuName": "Cust Service Rep",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentOperator",
+      "menuType": "Page",
+      "menuName": "Operator",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentSalesRep",
+      "menuType": "Page",
+      "menuName": "Shipment Sales Rep",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentAgent",
+      "menuType": "Page",
+      "menuName": "Agent",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ContactCode",
+      "menuType": "Page",
+      "menuName": "Customer Contact Code",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Style",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "StyleBreakdownRef",
+      "menuType": "Page",
+      "menuName": "Style Breakdown X-Ref",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Shipping",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipType",
+      "menuType": "Page",
+      "menuName": "Ship Type",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Carrier",
+      "menuType": "Page",
+      "menuName": "Carrier",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipVia",
+      "menuType": "Page",
+      "menuName": "Ship Via",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentEvent",
+      "menuType": "Page",
+      "menuName": "Shipment Event (315)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "OverseasCharges",
+      "menuType": "Page",
+      "menuName": "Shipping Rates",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Consignee",
+      "menuType": "Page",
+      "menuName": "Consignee",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Shipper",
+      "menuType": "Page",
+      "menuName": "Shipper",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CarrierInstruction",
+      "menuType": "Page",
+      "menuName": "Carrier Instruction",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Production",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ProductionType",
+      "menuType": "Page",
+      "menuName": "Production Type",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "VendorRef",
+      "menuType": "Page",
+      "menuName": "Vendor",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ProdTerms",
+      "menuType": "Page",
+      "menuName": "Prod Payment Terms",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ImportShipmentTerms",
+      "menuType": "Page",
+      "menuName": "Shipment Terms",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentBookingContacts",
+      "menuType": "Page",
+      "menuName": "Booking Contacts Reference",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentBookingStage",
+      "menuType": "Page",
+      "menuName": "Booking Stages",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Export Shipments",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ContainerStage",
+      "menuType": "Page",
+      "menuName": "Container Stage",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ContainerSize",
+      "menuType": "Page",
+      "menuName": "Container Size",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentTypeReference",
+      "menuType": "Page",
+      "menuName": "Shipment Type",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentIncident",
+      "menuType": "Page",
+      "menuName": "Shipment Incident Code",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "AirFreightStandards",
+      "menuType": "Page",
+      "menuName": "Air Freight Proj Standards",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Warehouse",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Warehouse",
+      "menuType": "Page",
+      "menuName": "Warehouse",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "Carton",
+      "menuType": "Page",
+      "menuName": "Carton",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Customer Invoice",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CustInvoiceRef",
+      "menuType": "Page",
+      "menuName": "Customer Invoice Reference",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Admin. &Setup",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "EDI",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Inbound Control Setup",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI850InboundProdControl",
+      "menuType": "Page",
+      "menuName": "850 (Production Order)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI856InboundPortMapping",
+      "menuType": "Page",
+      "menuName": "856/943 Production Port Mapping",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Outbound Control Setup",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI856ProdOutboundControl",
+      "menuType": "Page",
+      "menuName": "856 Prod Shipment",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI856OutboundBookingControl",
+      "menuType": "Page",
+      "menuName": "856 Shipment Booking",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI850OutboundControl",
+      "menuType": "Page",
+      "menuName": "850 (Open Production)",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI810OutboundBrokerControl",
+      "menuType": "Page",
+      "menuName": "810 Broker Invoice",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI310OutboundControl",
+      "menuType": "Page",
+      "menuName": "310 Freight Invoice",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "EDI997DetailAckControl",
+      "menuType": "Page",
+      "menuName": "997 Detailed Acknowledgement",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "PartnerID",
+      "menuType": "Page",
+      "menuName": "Partner ID",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "PartnerQualifier",
+      "menuType": "Page",
+      "menuName": "Partner Qualifier",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "PartnerVersion",
+      "menuType": "Page",
+      "menuName": "Partner Version",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "SystemMessage",
+      "menuType": "Page",
+      "menuName": "Message",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Inquiries",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsHome",
+      "menuType": "Page",
+      "menuName": "Home Page",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "ShipmentBookingInq",
+      "menuType": "Page",
+      "menuName": "Shipment Booking Inquiry",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsPODetailInquiry",
+      "menuType": "Page",
+      "menuName": "Production Detail Inquiry",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsContainerInquiry",
+      "menuType": "Page",
+      "menuName": "Container Inquiry",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsShipmentInquiry",
+      "menuType": "Page",
+      "menuName": "Shipment Inquiry",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "FreightInvoiceInquiry",
+      "menuType": "Page",
+      "menuName": "Freight Invoice Inquiry",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricOpenPO",
+      "menuType": "Page",
+      "menuName": "Open PO",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsBookedPO",
+      "menuType": "Page",
+      "menuName": "Booked PO",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsShippedPO",
+      "menuType": "Page",
+      "menuName": "In-Transit PO",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsReceivedPO",
+      "menuType": "Page",
+      "menuName": "Received PO",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "AirFreightProjInquiry",
+      "menuType": "Page",
+      "menuName": "Air Freight Proj Inquiry",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "CoMetricsInTransitContainer",
+      "menuType": "Page",
+      "menuName": "In-Transit Container",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Task Scheduler",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "com.coldlion.tslibrary.TSLibraryController",
+      "menuType": "Internal",
+      "menuName": "Task Scheduler Library",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "System Configuration",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Task Scheduler Setup",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "TaskSchedulerServers",
+      "menuType": "Page",
+      "menuName": "Task Scheduler Servers",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "TaskSchedulerPrinter",
+      "menuType": "Page",
+      "menuName": "Task Scheduler Printers",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Access Management",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "com.coldlion.usersettings.UserGroupSetupController",
+      "menuType": "Internal",
+      "menuName": "User Groups",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "com.coldlion.usersettings.UserSetupController",
+      "menuType": "Internal",
+      "menuName": "Users",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "com.coldlion.ext.forms.PermissionSetupController",
+      "menuType": "Internal",
+      "menuName": "System Security Console",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "",
+      "menuType": "",
+      "menuName": "Settings",
+      "menuImage": "0"
+    },
+    {
+      "location": "",
+      "objectKey": "com.coldlion.usersettings.UserSettingsController",
+      "menuType": "Internal",
+      "menuName": "My Settings",
+      "menuImage": "0"
+    }
+  ],
+  "homePage": "",
+  "logo": ""
+}

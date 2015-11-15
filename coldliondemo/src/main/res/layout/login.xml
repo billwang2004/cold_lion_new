@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="40dp"
+              android:background="@mipmap/login_bg">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:layout_gravity="center_horizontal" android:src="@mipmap/coldlion_logo"
+            android:scaleType="center"/>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                    android:id="@+id/txt_loginerror"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="输入的账号和密码不正确"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ff0000"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/username"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/tvUserName"
+                    android:textColor="@color/login_text_color"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:autoText="false"
+                    android:capitalize="none"
+                    android:gravity="fill_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/edUserName"/>
+
+            <TextView
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/password"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/login_text_color"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:autoText="false"
+                    android:capitalize="none"
+                    android:gravity="fill_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/edPassword"
+                    android:inputType="textPassword"/>
+
+            <TextView
+                    android:id="@+id/txt_toregister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#2200C1"/>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:gravity="center_horizontal"
+                    >
+                <Button
+                        android:id="@+id/btnLogin"
+                        android:text="@string/login"
+                        style="@style/LoginButtonStyle"/>
+                <Button
+                        android:id="@+id/btnCancel"
+                        android:text="@string/cancel"
+                        style="@style/LoginButtonStyle"
+                        />
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="20dp">
+                <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/remember_userName"
+                        android:id="@+id/cbCheckUserName"
+                        android:textColor="@color/login_text_color"/>
+                <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/remember_password"
+                        android:id="@+id/cbCheckPassword" android:textColor="@color/login_text_color"/>
+            </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

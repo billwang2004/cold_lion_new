@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ColdLion Mobile</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="remember_userName">Remember User Name</string>
+    <string name="remember_password">Remember Password</string>
+    <string name="login_error">User name or password error!</string>
+    <string name="login_fail">Login Fail</string>
+    <string name="loading">Loading...</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="invalid_new_password">Invalid new password, password length must be greater or equal to eight.</string>
+    <string name="invalid_confirm_password">Confirm password doesn\'t match new password.</string>
+    <string name="welcome">Welcome %s</string>
+    <string name="timeout">Your session is no longer available.\r\nClick OK and you will be redirected to the Login screen."</string>
+    <string name="enterConditions">Enter Conditions</string>
+    <string name="exitApp">Are you sure to quit?</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+</resources>

@@ -1,0 +1,20 @@
+    @WebMethod(operationName = "getsi")
+    public String getConnBeanId(@WebParam(name = "UserId") String pUserId, @WebParam(name = "Key") String pKey) {}
+ 这个返回值作为以下所有方法的第一个参数pConnectionBean
+
+    @WebMethod(operationName = "ln2")
+    public String userLogin2(String pConnectionBean, String pUserId, String pPassword, String pClientCode) {}
+
+    @WebMethod(operationName = "mobileGum")
+    public String getMobileUserMenu(String pConnectionBean) {}
+
+    @WebMethod(operationName = "mobileOdp")
+    public String openNDisplayPage(String pConnectionBean, String pPageName) {}
+
+    @WebMethod(operationName = "mobilePpb")
+    public String mobilePagePostback(String pConnectionBean, String pPageUUId, 
+            String pNode, String pChildNode, String pFocusedNode, 
+            String pMethodType, String pClientModalResult, String pClientVals) {}
+
+    @WebMethod(operationName = "mobilePc")
+    public void mobilePageClose(String pConnectionBean, String pPageUUId) {}

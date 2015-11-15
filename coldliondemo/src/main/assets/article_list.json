@@ -1,0 +1,266 @@
+{
+  "pageKey": "p42dE0RoiTNETNO",
+  "pageName": "DivisionTestLeon",
+  "isPopup": "false",
+  "w": "725.0",
+  "h": "598.0000305175781",
+  "clientProcesses": [],
+  "dss": [
+    {
+      "key": "Division",
+      "rowMoved": "",
+      "numberOfRows": "0",
+      "rowId": "-1",
+      "pageIndex": "0",
+      "numberOfPages": "0",
+      "columns": [
+        {
+          "colName": "CompanyCode",
+          "type": "S",
+          "display": "Company Code",
+          "pattern": ""
+        },
+        {
+          "colName": "DivisionCode",
+          "type": "S",
+          "display": "Division Code",
+          "pattern": ""
+        },
+        {
+          "colName": "DivisionDesc",
+          "type": "S",
+          "display": "Division Desc",
+          "pattern": ""
+        },
+        {
+          "colName": "AccDivCode",
+          "type": "S",
+          "display": "Accounting Division",
+          "pattern": ""
+        },
+        {
+          "colName": "Active",
+          "type": "S",
+          "display": "Active",
+          "pattern": ""
+        },
+        {
+          "colName": "Address1",
+          "type": "S",
+          "display": "Address 1",
+          "pattern": ""
+        }
+      ],
+      "rows": []
+    }
+  ],
+  "nodes": {
+    "t": "page",
+    "text": "",
+    "nodes": [
+      {
+        "id": "button_PDuUEH",
+        "text": "button1",
+        "visible": "true",
+        "disable": "false",
+        "x": "16.0",
+        "y": "20.000015258789062",
+        "h": "37.0",
+        "w": "62.0",
+        "t": "button"
+      },
+      {
+        "id": "checkBox_VOhAIN",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "112.0",
+        "y": "46.0",
+        "h": "31.0",
+        "w": "93.0",
+        "t": "CheckBox",
+        "binding": "",
+        "selected": "false"
+      },
+      {
+        "id": "textField_vQmWFI",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "256.0",
+        "y": "45.0",
+        "h": "33.0",
+        "w": "147.0",
+        "t": "TextField",
+        "binding": "@AccDivDesc",
+        "maxLength": "40",
+        "isMandatory": "false",
+        "colType": "S"
+      },
+      {
+        "id": "ComboBox_jrFyY8",
+        "text": "",
+        "visible": "true",
+        "disable": "true",
+        "x": "481.0",
+        "y": "45.0",
+        "h": "33.0",
+        "w": "229.0",
+        "t": "ComboBox",
+        "selected": "",
+        "items": []
+      },
+      {
+        "id": "label_POfIxf",
+        "text": "label2",
+        "visible": "true",
+        "disable": "false",
+        "x": "133.0",
+        "y": "18.0",
+        "h": "31.0",
+        "w": "114.0",
+        "t": "label",
+        "alignment": "CENTER_RIGHT"
+      },
+      {
+        "id": "toolBar_ADI68S",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "42.999969482421875",
+        "y": "97.00001525878906",
+        "h": "26.0",
+        "w": "680.0",
+        "t": "toolbar",
+        "alignment": "CENTER_LEFT",
+        "clicked": "",
+        "nodes": [
+          {
+            "id": "toolBarButton_mpfu0B",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "separator",
+            "graphic": "",
+            "tooltip": "",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_mpfu0B",
+            "t": "toolbarButton"
+          },
+          {
+            "id": "toolBarButton_pazHgp",
+            "t": "toolbarButton"
+          },
+          {
+            "id": "toolBarButton_lTS8Vw",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "separator",
+            "graphic": "",
+            "tooltip": "",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_lTS8Vw",
+            "t": "toolbarButton"
+          },
+          {
+            "id": "toolBarButton_hSilPQ",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "button",
+            "graphic": "ANGLE_RIGHT",
+            "tooltip": "Next",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_hSilPQ",
+            "t": "toolbarButton"
+          },
+          {
+            "id": "toolBarButton_NooZmI",
+            "text": "",
+            "visible": "false",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "0.0",
+            "w": "0.0",
+            "t": "toolbarButton",
+            "tbbType": "button",
+            "graphic": "ANGLE_DOUBLE_RIGHT",
+            "tooltip": "Last",
+            "clicked": ""
+          },
+          {
+            "id": "toolBarButton_t8scJO",
+            "t": "toolbarButton"
+          }
+        ]
+      },
+      {
+        "id": "pageHeader_D9Gwgk",
+        "text": "",
+        "visible": "true",
+        "disable": "false",
+        "x": "42.0",
+        "y": "140.00003051757812",
+        "h": "457.0",
+        "w": "682.0",
+        "t": "mainTab",
+        "selected": "-1",
+        "nodes": [
+          {
+            "id": "tab_j44yzx",
+            "text": "Tab1",
+            "visible": "true",
+            "disable": "false",
+            "x": "0.0",
+            "y": "0.0",
+            "h": "5.0",
+            "w": "5.0",
+            "t": "tab",
+            "nodes": [
+              {
+                "id": "textField_slpYWS",
+                "text": "",
+                "visible": "true",
+                "disable": "true",
+                "x": "88.00003051757812",
+                "y": "61.999969482421875",
+                "h": "34.0",
+                "w": "99.0",
+                "t": "TextField",
+                "binding": "Division.Active",
+                "maxLength": "1",
+                "isMandatory": "false",
+                "callMethod": "Division.Active",
+                "colType": "S"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "popovers": []
+}

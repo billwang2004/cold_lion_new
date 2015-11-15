@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="idsGridHeader" type="id"> 0xfeff00</item>
+<item name="idsGridList" type="id">0xfeff01</item>
+ <item name="idsGridColumn" type="id">0xfffe00</item>
+</resources>
