@@ -1,0 +1,22 @@
+WebClient web = new WebClient("http://52.6.66.43:8080/CLDevWebserver/EngineServer?wsdl");
+                        String connBeanId = web.getConnBeanId("", CryptoLib.getInstance().encrypt("@Loglogistics"));
+                        web.login(connBeanId, "user1", "bbbbbbbb", "");
+                        String menu =  web.getMobileUserMenu(connBeanId);
+                        
+                        String page = web.mobileOpenNDisplayPage(connBeanId, "OrderHoldLeonTest");
+                        
+                        JsonObjectWrapper jMenu = JsonObjectWrapper.parseJson(menu);
+                        
+                        JsonObjectWrapper jPage = JsonObjectWrapper.parseJson(page);
+                        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+                        String repContent = gson.toJson(jPage.getJsonObject());
+                        System.out.println(repContent);
+                        
+                        String pageKey = jPage.getMemberValue("pageKey");
+                        page = web.mobilePagePostback(connBeanId, pageKey, "button_6FAGJx", "", "", "clicked", "", "");
+                        //page = web.mobilePagePostback(connBeanId, pageKey, "toolBar_ADI68S", "toolBarButton_fBm1hj", "", "clicked", "", "");
+                        
+                        jPage = JsonObjectWrapper.parseJson(page);
+                        gson = new GsonBuilder().setPrettyPrinting().create();
+                        repContent = gson.toJson(jPage.getJsonObject());
+                        System.out.println(repContent);
